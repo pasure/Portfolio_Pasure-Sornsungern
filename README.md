@@ -9,6 +9,8 @@ social media by comparing the data of rumours and non-rumours on Twitter.
 
 &nbsp;&nbsp;&nbsp;&nbsp;The tools include but are not limited to: MongoDB server/Atlas, MongoDB Charts, MongoDB Database Tools, Tableau or PowerBI, and Neo4J Graph Database.
 
+![Overview_Project1](/assets/images/Overview_Project1.png)
+
 ## Project 2 : Visualizing Air Pollution (PM 2.5) on a Map
 
 > :memo: **Note:** This project is a part of the Spatial Databases & GIS Applications subject, King Mongkut’s Institute of Technology Ladkrabang.
