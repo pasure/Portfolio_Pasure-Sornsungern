@@ -13,7 +13,7 @@ social media by comparing the data of rumours and non-rumours on Twitter.
 
 ---------------
 
-## Project 2 : Visualizing Air Pollution (PM 2.5) on a Map
+## [Project 2 : Visualizing Air Pollution (PM 2.5) on a Map](https://github.com/pasure/Portfolio_Pasure-Sornsungern/tree/main/Project%202%20:%20Visualizing%20Air%20Pollution%20(PM%202.5)%20on%20a%20Map)
 
 > :memo: **Note:** This project is a part of the Spatial Databases & GIS Applications subject, King Mongkut’s Institute of Technology Ladkrabang.
 
