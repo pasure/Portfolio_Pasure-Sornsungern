@@ -23,14 +23,13 @@ curl -LO https://raw.githubusercontent.com/cluster-apps-on-docker/spark-standalo
 ```
 docker-compose up
 ```	
-3. Run Apache Spark code using the provided Jupyter notebooks with PySpark
+3. Run Apache Spark code using Jupyter notebooks with PySpark
 ```
 %load_ext memory_profiler
 ```
 ```
 from pyspark.sql import SparkSession
 import pandas as pd
-from pyspark.sql.functions import col
 
 spark = SparkSession.\
         builder.\
