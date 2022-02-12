@@ -14,12 +14,13 @@
 
 > :memo: **Reference :** https://github.com/cluster-apps-on-docker/spark-standalone-cluster-on-docker#download-from-docker-hub-easier .
 
-1. Download the docker compose file
+1. Install Ubuntu 20.04 LTS on Virtual Machine
+2. Download the docker compose file
 
 ```
 curl -LO https://raw.githubusercontent.com/cluster-apps-on-docker/spark-standalone-cluster-on-docker/master/docker-compose.yml
 ```
-2. Start the cluster
+3. Start the cluster
 ```
 docker-compose up
 ```
