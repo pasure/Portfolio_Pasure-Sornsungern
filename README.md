@@ -32,7 +32,7 @@ country and city around the world from 2008 to 2017 (in Excel format) provided b
 
 &nbsp;&nbsp;&nbsp;&nbsp;The purpose of this mini project is to build Apache Spark cluster in standalone mode on Docker with a JupyterLab interface and processing data 1M record flie (in csv format) with PySpark.
 
-![Overview_Project2](/assets/images/Spark-01.png)
+![Overview_Project_Spark](/assets/images/Spark-01.png)
 
 ---------------
 
