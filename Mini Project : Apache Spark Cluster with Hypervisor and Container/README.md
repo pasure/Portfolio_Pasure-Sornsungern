@@ -68,23 +68,50 @@ print("------ FINISHED ------")
 spark.stop()  # Optional
 ```
 ---------------
-### 5.
+### 5. Compare status of worker between Two workers and One single worker with Spark UI
+
+![Overview_Project_Spark](/assets/images/Spark-03.png)
 
 ---------------
 
-### 6.
+### 6. Compare Spark jobs of worker between Two workers and One single worker with Spark UI
+
+![Overview_Project_Spark](/assets/images/Spark-04.png)
+
+![Overview_Project_Spark](/assets/images/Spark-05.png)
+
+---------------
+### 7. Compare Completed Stages of worker between Two workers and One single worker with Spark UI
+
+![Overview_Project_Spark](/assets/images/Spark-06.png)
+
+![Overview_Project_Spark](/assets/images/Spark-07.png)
+
 ---------------
 
-### 7.
+![Overview_Project_Spark](/assets/images/Spark-08.png)
+
 ---------------
 
-### 8.
+### 8. Compare Event timeline of worker between Two workers and One single worker with Spark UI
+
+![Overview_Project_Spark](/assets/images/Spark-09.png)
+
+![Overview_Project_Spark](/assets/images/Spark-10.png)
+
 ---------------
 
-### 9.
----------------
+### 9. Compare Aggregated Metrics of worker between Two workers and One single worker with Spark UI
 
-### 10.
+![Overview_Project_Spark](/assets/images/Spark-11.png)
+
+![Overview_Project_Spark](/assets/images/Spark-12.png)
+
+---------------
+### 10. Compare Memmory Usage and CPU times of worker between Two workers and One single worker with Spark UI
+
+![Overview_Project_Spark](/assets/images/Spark-13.png)
+
 ---------------
 ### 11. Stop the cluster
 1. Stop the cluster by typing ```ctrl+c``` on the terminal
