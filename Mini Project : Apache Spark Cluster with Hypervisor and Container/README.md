@@ -108,7 +108,7 @@ spark.stop()  # Optional
 ![Overview_Project_Spark](/assets/images/Spark-12.png)
 
 ---------------
-### 10. Compare Memmory Usage and CPU times of worker between Two workers and One single worker with Spark UI
+### 10. Compare Memmory Usage and CPU times of worker between Two workers and One single worker with Jupyter Interface
 
 ![Overview_Project_Spark](/assets/images/Spark-13.png)
 
