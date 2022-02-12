@@ -25,13 +25,13 @@ docker-compose up
 ```
 ---------------
 
-### 3. Check Status of Worker with Spark UI
+### 3. Check Status of Worker with Spark UI (localhost:4040)
 
 ![Overview_Project_Spark](/assets/images/Spark-02.png)
 
 ---------------
 
-### 4. Run Apache Spark code using Jupyter notebooks with PySpark
+### 4. Run Apache Spark code using Jupyter notebooks with PySpark (localhost:8888)
 
 ```
 %load_ext memory_profiler
@@ -50,17 +50,17 @@ spark = SparkSession.\
 ```
 %%time
 %%memit
-raw_df = spark.read.format('csv').option('header','true').option('mode','DROPMALFORMED') \
+raw_df = spark.read.format('csv').option('header','true').option('mode','DROPMALFORMED') \        # Read file .csv
 .load('/opt/workspace/LoanStats_web.csv')
 
-print("Number of Columns : ",len(raw_df.columns))
-print("Before-Number of Row : ",f"{raw_df.count():,}")
+print("Number of Columns : ",len(raw_df.columns))                 # Count Columns
+print("Before-Number of Row : ",f"{raw_df.count():,}")            # Count Row
 
-raw_df = raw_df.dropDuplicates()
+raw_df = raw_df.dropDuplicates()       # Drop Duplicates Record
 
-print("After-Number of Row : ",f"{raw_df.count():,}")
+print("After-Number of Row : ",f"{raw_df.count():,}")             # Count Row after Drop Duplicates Record
 
-raw_df.write.mode('overwrite').parquet("/opt/workspace/NewFile.parquet")
+raw_df.write.mode('overwrite').parquet("/opt/workspace/NewFile.parquet") # Save Data Frame to Parquet File
 
 print("------ FINISHED ------")
 ```
