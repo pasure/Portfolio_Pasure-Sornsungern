@@ -14,6 +14,55 @@
 
 > :memo: **Reference :** https://github.com/cluster-apps-on-docker/spark-standalone-cluster-on-docker#download-from-docker-hub-easier .
 
+1. Download the docker compose file
+
+```
+curl -LO https://raw.githubusercontent.com/cluster-apps-on-docker/spark-standalone-cluster-on-docker/master/docker-compose.yml
+```
+2. Start the cluster
+```
+docker-compose up
+```	
+3. Run Apache Spark code using the provided Jupyter notebooks with PySpark
+```
+%load_ext memory_profiler
+```
+```
+from pyspark.sql import SparkSession
+import pandas as pd
+from pyspark.sql.functions import col
+
+spark = SparkSession.\
+        builder.\
+        appName("pyspark-notebook").\
+        master("spark://spark-master:7077").\
+        config("spark.executor.core", "1").\
+        getOrCreate()
+```
+```
+%%time
+%%memit
+raw_df = spark.read.format('csv').option('header','true').option('mode','DROPMALFORMED') \
+.load('/opt/workspace/LoanStats_web.csv')
+
+print("Number of Columns : ",len(raw_df.columns))
+print("Before-Number of Row : ",f"{raw_df.count():,}")
+
+raw_df = raw_df.dropDuplicates()
+
+print("After-Number of Row : ",f"{raw_df.count():,}")
+
+raw_df.write.mode('overwrite').parquet("/opt/workspace/NewFile.parquet")
+
+print("------ FINISHED ------")
+```
+```
+spark.stop()
+```
+4. Stop the cluster by typing ```ctrl+c``` on the terminal
+5. Run step 3 to restart the cluster
+
+
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 ---------------
