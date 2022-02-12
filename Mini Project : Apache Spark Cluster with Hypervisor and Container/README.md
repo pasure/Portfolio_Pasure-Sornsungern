@@ -29,6 +29,8 @@ docker-compose up
 
 ![Overview_Project_Spark](/assets/images/Spark-02.png)
 
+---------------
+
 ### 4. Run Apache Spark code using Jupyter notebooks with PySpark
 
 ```
@@ -65,18 +67,29 @@ print("------ FINISHED ------")
 ```
 spark.stop()  # Optional
 ```
+---------------
 ### 5.
 
+---------------
+
 ### 6.
+---------------
 
 ### 7.
+---------------
 
 ### 8.
+---------------
 
 ### 9.
+---------------
 
 ### 10.
-
+---------------
 ### 11. Stop the cluster
-4. Stop the cluster by typing ```ctrl+c``` on the terminal
-5. Run step 3 to restart the cluster
+1. Stop the cluster by typing ```ctrl+c``` on the terminal
+2. Run Docker Compose again to restart the cluster
+```
+docker-compose up
+```
+---------------
