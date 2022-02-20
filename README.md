@@ -38,10 +38,16 @@ country and city around the world from 2008 to 2017 (in Excel format) provided b
 
 ## Mini Project : Data Pipelines with Apache Airflow
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+> :memo: **Note:** Proof of concept Project.
+
+&nbsp;&nbsp;&nbsp;&nbsp;The purpose of this mini project is to build Apache Airflow on Docker with a JupyterLab interface and processing data 1 million record flie (in csv format) with PySpark.
+
+![Overview_Project_Spark](/assets/images/Airflow-Images-01.png)
+
+![Overview_Project_Spark](/assets/images/Airflow-Images-02.png)
 
 ---------------
 
-## cert
+## Certificate of Participation in Workshop
 
 &nbsp;&nbsp;&nbsp;&nbsp;sdsdsdsdsdsd
