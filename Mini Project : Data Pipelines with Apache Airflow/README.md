@@ -1,4 +1,4 @@
-## Mini Project : Data Pipelines with Apache Airflow
+## Mini Project : Data Pipeline with Apache Airflow
 
 > :memo: **Note:** Proof of concept Project.
 
