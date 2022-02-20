@@ -4,7 +4,7 @@
 
 ### 1. System Overview
 
-&nbsp;&nbsp;&nbsp;&nbsp;The purpose of this mini project is to build Data Pipeline using Apache Airflow on Docker for use with a Microsoft SQL Server, MailHog and Import Data from Public API, Extract-Transform-Load (ETL) data (in csv format) with Pandas, import data into Microsoft SQL Server then notice user via email (MailHog).
+&nbsp;&nbsp;&nbsp;&nbsp;The purpose of this mini project is to build Data Pipeline using Apache Airflow on Docker for import data from Public API, Extract-Transform-Load (ETL) data (in csv format) with Pandas, import data into Microsoft SQL Server and then notice user via email (MailHog).
 
 ![Overview_Project_Spark](/assets/images/Airflow-Images-01.png)
 
