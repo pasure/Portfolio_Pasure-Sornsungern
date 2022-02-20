@@ -1,0 +1,29 @@
+[2022-02-19 16:28:14,447] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: demo_etl.Clean_Data manual__2022-02-19T16:27:33.267438+00:00 [queued]>
+[2022-02-19 16:28:14,458] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: demo_etl.Clean_Data manual__2022-02-19T16:27:33.267438+00:00 [queued]>
+[2022-02-19 16:28:14,458] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-19 16:28:14,458] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-02-19 16:28:14,458] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-19 16:28:14,472] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): Clean_Data> on 2022-02-19 16:27:33.267438+00:00
+[2022-02-19 16:28:14,478] {standard_task_runner.py:52} INFO - Started process 44710 to run task
+[2022-02-19 16:28:14,487] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'demo_etl', 'Clean_Data', 'manual__2022-02-19T16:27:33.267438+00:00', '--job-id', '414', '--raw', '--subdir', 'DAGS_FOLDER/demo_etl.py', '--cfg-path', '/tmp/tmp4lyz5niw', '--error-file', '/tmp/tmpkqw6psi5']
+[2022-02-19 16:28:14,488] {standard_task_runner.py:77} INFO - Job 414: Subtask Clean_Data
+[2022-02-19 16:28:15,675] {logging_mixin.py:109} INFO - Running <TaskInstance: demo_etl.Clean_Data manual__2022-02-19T16:27:33.267438+00:00 [running]> on host d18a6d5a39bc
+[2022-02-19 16:28:20,853] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=demo_etl
+AIRFLOW_CTX_TASK_ID=Clean_Data
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-19T16:27:33.267438+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-02-19T16:27:33.267438+00:00
+[2022-02-19 16:28:20,952] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-19 16:28:21,399] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'find /opt/***/data -name "*.csv" -type f']
+[2022-02-19 16:28:21,563] {subprocess.py:85} INFO - Output:
+[2022-02-19 16:28:22,191] {subprocess.py:89} INFO - /opt/***/data/taxi_2021.csv
+[2022-02-19 16:28:22,192] {subprocess.py:89} INFO - /opt/***/data/taxi_2020-2021.csv
+[2022-02-19 16:28:22,192] {subprocess.py:89} INFO - /opt/***/data/taxi_2020.csv
+[2022-02-19 16:28:22,193] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-19 16:28:23,086] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=demo_etl, task_id=Clean_Data, execution_date=20220219T162733, start_date=20220219T162814, end_date=20220219T162823
+[2022-02-19 16:28:23,212] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-19 16:28:23,293] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

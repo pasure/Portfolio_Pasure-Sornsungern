@@ -1,0 +1,51 @@
+[2022-02-19 14:38:23,719] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: demo_etl.Load_Data.Save_to_DB manual__2022-02-19T14:38:07.877845+00:00 [queued]>
+[2022-02-19 14:38:24,051] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: demo_etl.Load_Data.Save_to_DB manual__2022-02-19T14:38:07.877845+00:00 [queued]>
+[2022-02-19 14:38:24,053] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-19 14:38:24,061] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-02-19 14:38:24,066] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-19 14:38:24,154] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): Load_Data.Save_to_DB> on 2022-02-19 14:38:07.877845+00:00
+[2022-02-19 14:38:24,171] {standard_task_runner.py:52} INFO - Started process 2938 to run task
+[2022-02-19 14:38:24,193] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'demo_etl', 'Load_Data.Save_to_DB', 'manual__2022-02-19T14:38:07.877845+00:00', '--job-id', '382', '--raw', '--subdir', 'DAGS_FOLDER/demo_etl.py', '--cfg-path', '/tmp/tmp0t_up7zi', '--error-file', '/tmp/tmp1a8e8_8s']
+[2022-02-19 14:38:24,195] {standard_task_runner.py:77} INFO - Job 382: Subtask Load_Data.Save_to_DB
+[2022-02-19 14:38:24,559] {logging_mixin.py:109} INFO - Running <TaskInstance: demo_etl.Load_Data.Save_to_DB manual__2022-02-19T14:38:07.877845+00:00 [running]> on host d18a6d5a39bc
+[2022-02-19 14:38:24,803] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=demo_etl
+AIRFLOW_CTX_TASK_ID=Load_Data.Save_to_DB
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-19T14:38:07.877845+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-02-19T14:38:07.877845+00:00
+[2022-02-19 14:38:24,810] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-02-19 14:38:24,818] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'next_ds' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds }}' instead.
+[2022-02-19 14:38:24,833] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'next_ds_nodash' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds_nodash }}' instead.
+[2022-02-19 14:38:24,834] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+[2022-02-19 14:38:24,840] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'prev_ds' from the template is deprecated and will be removed in a future version.
+[2022-02-19 14:38:24,842] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'prev_ds_nodash' from the template is deprecated and will be removed in a future version.
+[2022-02-19 14:38:24,847] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'prev_execution_date' from the template is deprecated and will be removed in a future version.
+[2022-02-19 14:38:24,853] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'prev_execution_date_success' from the template is deprecated and will be removed in a future version. Please use 'prev_data_interval_start_success' instead.
+[2022-02-19 14:38:24,854] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'tomorrow_ds' from the template is deprecated and will be removed in a future version.
+[2022-02-19 14:38:24,855] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'tomorrow_ds_nodash' from the template is deprecated and will be removed in a future version.
+[2022-02-19 14:38:24,856] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'yesterday_ds' from the template is deprecated and will be removed in a future version.
+[2022-02-19 14:38:24,857] {logging_mixin.py:109} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'yesterday_ds_nodash' from the template is deprecated and will be removed in a future version.
+[2022-02-19 14:38:24,977] {logging_mixin.py:109} INFO - Done !!
+[2022-02-19 14:38:25,909] {logging_mixin.py:109} INFO - Done !!
+[2022-02-19 14:38:26,040] {logging_mixin.py:109} INFO -       vendorid     lpep_pickup_datetime  ... trip_type  congestion_surcharge
+0            2  2019-12-18T15:52:30.000  ...         1                  0.00
+1            2  2020-01-01T00:45:58.000  ...         2                  0.00
+2            2  2020-01-01T00:41:38.000  ...         1                  0.00
+3            1  2020-01-01T00:52:46.000  ...         1                  2.75
+4            1  2020-01-01T00:19:57.000  ...         1                  0.00
+...        ...                      ...  ...       ...                   ...
+1995         2  2021-01-02T12:21:00.000  ...         1                  0.00
+1996         2  2021-01-02T12:21:33.000  ...         1                  0.00
+1997         1  2021-01-02T12:41:19.000  ...         1                  2.75
+1998         2  2021-01-02T12:31:08.000  ...         1                  0.00
+1999         2  2021-01-02T12:38:21.000  ...         1                  0.00
+
+[2000 rows x 18 columns]
+[2022-02-19 14:38:28,896] {logging_mixin.py:109} INFO - Save Data to Database Done !!
+[2022-02-19 14:38:28,896] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-19 14:38:28,909] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=demo_etl, task_id=Load_Data.Save_to_DB, execution_date=20220219T143807, start_date=20220219T143823, end_date=20220219T143828
+[2022-02-19 14:38:28,948] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-19 14:38:28,997] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

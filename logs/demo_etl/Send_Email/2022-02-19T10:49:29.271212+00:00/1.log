@@ -1,0 +1,2 @@
+[2022-02-19 10:49:30,572] {taskinstance.py:1026} INFO - Dependencies not met for <TaskInstance: demo_etl.Send_Email manual__2022-02-19T10:49:29.271212+00:00 [queued]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 2 non-success(es). upstream_tasks_state={'total': 2, 'successes': 0, 'skipped': 0, 'failed': 0, 'upstream_failed': 0, 'done': 0}, upstream_task_ids={'Load_Data.Save_to_DB', 'Load_Data.Save_to_JSON'}
+[2022-02-19 10:49:30,573] {local_task_job.py:99} INFO - Task is not able to be run
