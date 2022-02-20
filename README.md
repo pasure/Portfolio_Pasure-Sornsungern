@@ -40,7 +40,7 @@ country and city around the world from 2008 to 2017 (in Excel format) provided b
 
 > :memo: **Note:** Proof of concept Project.
 
-&nbsp;&nbsp;&nbsp;&nbsp;The purpose of this mini project is to build Apache Airflow on Docker with a JupyterLab interface and processing data 1 million record flie (in csv format) with PySpark.
+&nbsp;&nbsp;&nbsp;&nbsp;The purpose of this mini project is to build Data Pipeline using Apache Airflow on Docker for import data from Public API, Extract-Transform-Load (ETL) data (in CSV and JSON format) with Pandas, import data into Microsoft SQL Server and then notice user via email (MailHog) when data pipeline succeeded.
 
 ![Overview_Project_Spark](/assets/images/Airflow-Images-01.png)
 
