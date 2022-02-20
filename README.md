@@ -36,7 +36,7 @@ country and city around the world from 2008 to 2017 (in Excel format) provided b
 
 ---------------
 
-## [Mini Project : Data Pipelines with Apache Airflow](https://github.com/pasure/Portfolio_Pasure-Sornsungern/tree/main/Mini%20Project%20:%20Data%20Pipelines%20with%20Apache%20Airflow)
+## [Mini Project : Data Pipeline with Apache Airflow](https://github.com/pasure/Portfolio_Pasure-Sornsungern/tree/main/Mini%20Project%20:%20Data%20Pipelines%20with%20Apache%20Airflow)
 
 > :memo: **Note:** Proof of concept Project.
 
