@@ -74,4 +74,4 @@ with DAG(
     )
     # [END main_flow]
 
-    extract_task >> transform_task >> load_data_task >> send_email_task >> clean_data 
+    extract_task >> transform_task >> load_data_task >> clean_data >> send_email_task
