@@ -1,2 +1,0 @@
-# MongoDB Atlas
-mongodb+srv://admin:mongodb@germanwings.fhgkn.mongodb.net/test
