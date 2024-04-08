@@ -1,6 +1,6 @@
 # Portfolio_Pasure-Sornsungern
 
-## [Project 1 : Rumour Spreading Analysis on Twitter (Germanwings-crash)](https://github.com/pasure/Portfolio_Pasure-Sornsungern/tree/main/Project%201%20:%20Rumour%20Spreading%20Analysis%20on%20Twitter)
+## [Project 1 : Rumour Spreading Analysis on Twitter (Germanwings-crash)](https://github.com/pasure/Portfolio_Pasure-Sornsungern/tree/main/rumour-spreading-analysis-on-twitter)
 
 > :memo: **Note:** This project is a part of the Big Data Analytics subject, King Mongkut’s Institute of Technology Ladkrabang.
 
@@ -13,7 +13,7 @@ social media by comparing the data of rumours and non-rumours on Twitter.
 
 ---------------
 
-## [Project 2 : Visualizing Air Pollution (PM 2.5) on a Map](https://github.com/pasure/Portfolio_Pasure-Sornsungern/tree/main/Project%202%20:%20Visualizing%20Air%20Pollution%20(PM%202.5)%20on%20a%20Map)
+## [Project 2 : Visualizing Air Pollution (PM 2.5) on a Map](https://github.com/pasure/Portfolio_Pasure-Sornsungern/tree/main/visualizing-air-pollution-(pm2_5)-on-a-map)
 
 > :memo: **Note:** This project is a part of the Spatial Databases & GIS Applications subject, King Mongkut’s Institute of Technology Ladkrabang.
 
@@ -26,7 +26,7 @@ country and city around the world from 2008 to 2017 (in Excel format) provided b
 
 ---------------
 
-## [Mini Project : Apache Spark Cluster with Hypervisor and Container](https://github.com/pasure/Portfolio_Pasure-Sornsungern/tree/main/Mini%20Project%20:%20Apache%20Spark%20Cluster%20with%20Hypervisor%20and%20Container)
+## [Mini Project : Apache Spark Cluster with Hypervisor and Container](https://github.com/pasure/Portfolio_Pasure-Sornsungern/tree/main/apache-spark-cluster-with-hypervisor-and-container)
 
 > :memo: **Note:** Proof of concept Project.
 
@@ -36,7 +36,7 @@ country and city around the world from 2008 to 2017 (in Excel format) provided b
 
 ---------------
 
-## [Mini Project : Data Pipeline with Apache Airflow](https://github.com/pasure/Portfolio_Pasure-Sornsungern/tree/main/Mini%20Project%20:%20Data%20Pipelines%20with%20Apache%20Airflow)
+## [Mini Project : Data Pipeline with Apache Airflow](https://github.com/pasure/Portfolio_Pasure-Sornsungern/tree/main/data-pipelines-with-apache-airflow)
 
 > :memo: **Note:** Proof of concept Project.
 
